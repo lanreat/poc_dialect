@@ -2,7 +2,6 @@ streamlit
 numpy 
 pandas 
 joblib
-re
 scikit-learn
 nltk
 wordcloud 
