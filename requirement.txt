@@ -1,7 +1,7 @@
 streamlit 
 numpy 
 pandas 
-matplotlib.pyplot 
+matplotlib
 joblib
 re
 scikit-learn
@@ -9,6 +9,3 @@ nltk
 wordcloud 
 scipy
 python-dotenv
-smtplib
-logging
-difflib
