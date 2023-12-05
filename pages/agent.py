@@ -3,9 +3,6 @@ import os
 from datetime import datetime
 import numpy as np
 import pandas as pd
-import matplotlib
-import matplotlib.pyplot as plt
-import joblib
 import re
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 from nltk.stem import WordNetLemmatizer
@@ -283,8 +280,6 @@ def agent_page():
                             all_customer_sentiments.extend(customer_sentiment_predictions)
 
                 if all_timestamps:
-                    # Add this debug print to check if this block is being executed
-                    print("Debug: Inside 'if all_timestamps:' block")
                     # Plot sentiment trend for agent
                     st.line_chart(pd.DataFrame({'Agent Sentiment': all_agent_sentiments}, index=all_timestamps))
 

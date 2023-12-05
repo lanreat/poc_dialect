@@ -1,8 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import logging
 from dotenv import load_dotenv
 
 # Load environment variables at the entry point
