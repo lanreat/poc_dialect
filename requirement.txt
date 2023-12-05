@@ -1,5 +1,4 @@
 streamlit 
-import os
 numpy 
 pandas 
 matplotlib.pyplot 
@@ -9,8 +8,7 @@ scikit-learn
 nltk
 wordcloud 
 scipy
-dotenv
-email.mime.text 
+python-dotenv
 smtplib
 logging
 difflib
