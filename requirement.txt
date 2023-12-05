@@ -1,0 +1,16 @@
+streamlit 
+import os
+numpy 
+pandas 
+matplotlib.pyplot 
+joblib
+re
+scikit-learn
+nltk
+wordcloud 
+scipy
+dotenv
+email.mime.text 
+smtplib
+logging
+difflib
