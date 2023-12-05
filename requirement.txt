@@ -7,3 +7,5 @@ nltk
 wordcloud 
 scipy
 python-dotenv
+python==3.11.6
+streamlit==1.29.0
