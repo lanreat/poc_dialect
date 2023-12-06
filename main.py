@@ -1,5 +1,4 @@
-import subprocess
-subprocess.call(["pip", "install", "python-dotenv"])
+import os
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -26,8 +25,12 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-#Banner image
-st.image('./home.png', width=1000)
+# Get the absolute path of the image file
+image_path = os.path.abspath('home.png')
+
+# Banner image
+st.image(image_path, width=500)
+
 # Header
 st.header("Welcome to Northumbria University :clap:") 
 st.header("Advanced Practice 2023")
