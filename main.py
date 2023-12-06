@@ -1,3 +1,5 @@
+import subprocess
+subprocess.call(["pip", "install", "python-dotenv"])
 import streamlit as st
 import numpy as np
 import pandas as pd
