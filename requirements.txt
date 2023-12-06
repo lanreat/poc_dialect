@@ -1,4 +1,4 @@
-streamlit 
+streamlit
 numpy 
 pandas 
 joblib
@@ -7,5 +7,4 @@ nltk
 wordcloud 
 scipy
 python-dotenv
-python
-streamlit
+
