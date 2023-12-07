@@ -45,10 +45,10 @@ lemmatizer = WordNetLemmatizer()
 sklearn_stopwords = ENGLISH_STOP_WORDS
 
 # Load the fitted vectorizer from the file
-tfidf_vectorizer = joblib.load('tfidf_vectorizer.joblib')
+tfidf_vectorizer = joblib.load('tfidf_vectorizer_update.joblib')
 
 # Load the trained ExtraTreesClassifier model with error handling
-model_filename = 'extra_trees_model.joblib'
+model_filename = 'extra_trees_model_update.joblib'
 try:
     extra_trees_model = joblib.load(model_filename)
 except FileNotFoundError:
