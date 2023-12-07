@@ -4,6 +4,7 @@ from datetime import datetime
 import re
 import nltk
 nltk.download('punkt')
+nltk.download('wordnet')
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
