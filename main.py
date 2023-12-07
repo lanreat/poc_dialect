@@ -26,10 +26,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Get the absolute path of the image file
-image_path = os.path.abspath('home.png')
+# image_path = os.path.abspath('board.png')
 
 # Banner image
-st.image(image_path, width=500)
+# st.image(image_path, width=500)
 
 # Header
 st.header("Welcome to Northumbria University :clap:") 
