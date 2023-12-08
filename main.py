@@ -29,7 +29,7 @@ st.markdown("""
 # image_path = 'https://drive.google.com/file/d/1kArfbxh8qDCyE77vVxRiNUzgnoI9clKh/view?usp=sharing'
 
 # Banner image
-st.image(image_path, width=1000)
+# st.image(image_path, width=1000)
 
 # Header
 st.header("Welcome to Northumbria University :smiley:") 
