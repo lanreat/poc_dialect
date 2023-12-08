@@ -26,25 +26,34 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Get the absolute path of the image file
-# image_path = os.path.abspath('board.png')
+image_path = os.path.abspath('board.png')
 
 # Banner image
-# st.image(image_path, width=500)
+st.image(image_path, width=1000)
 
 # Header
 st.header("Welcome to Northumbria University :clap:") 
 st.header("Advanced Practice 2023")
 
 st.write()
-col1, col2, col3 = st.columns(3)
+col1, col2 = st.columns(2)
 
 with col1:
-    st.write("This is the left column placeholder.")
-    st.write("We may redesign this page altogether.")
+    st.title("Summary")
+    st.write("""Unlock the Power of Sentiment Analysis: 
+             Transform your business with our cutting-edge Sentiment Analysis solution. 
+             Gain valuable insights from customer sentiments, enhance decision-making, and elevate your brand's success.
+             """)
+    st.write(" ✔️ Machine learning based sentiment scoring")
+    st.write(" ✔️ Real-time notifications")
+    st.write(" ✔️ Conversation theme")
+    st.write(" ✔️ Policy compliance")
+    st.write(" ✔️ Trends")
 
 with col2:
-     st.write("This is the middle column placeholder....")
-     st.write("...or add content to this.")
-
-with col3:
-    st.write("This is the right column placeholder.")
+    st.title("Project Team")
+    st.write("Dr. Naveed Anwar - Academic supervisor")
+    st.write("Oladipupo Elesha - Project Manager")
+    st.write("Indhusrijaa Gopalakrishnan - Assitant Project Manager")
+    st.write("Olakunle Kuyoro - Research and Development Lead")
+    st.write("Olanrewaju Atanda - Technical Lead")
