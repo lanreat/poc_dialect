@@ -26,22 +26,13 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Get the absolute path of the image file
-image_path = os.path.abspath('board.png')
-
-print("Current working directory:", os.getcwd())
-print("Absolute path of the image file:", image_path)
-
-# Check if the file exists
-if os.path.exists(image_path):
-    print("Image file exists!")
-else:
-    print("Image file does not exist!")
+image_path = 'https://drive.google.com/file/d/1kArfbxh8qDCyE77vVxRiNUzgnoI9clKh/view?usp=sharing'
 
 # Banner image
-# st.image(image_path, width=1000)
+st.image(image_path, width=1000)
 
 # Header
-st.header("Welcome to Northumbria University :clap:") 
+st.header("Welcome to Northumbria University :smiley:") 
 st.header("Advanced Practice 2023")
 
 st.write()
