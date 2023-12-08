@@ -28,8 +28,17 @@ st.markdown("""
 # Get the absolute path of the image file
 image_path = os.path.abspath('board.png')
 
+print("Current working directory:", os.getcwd())
+print("Absolute path of the image file:", image_path)
+
+# Check if the file exists
+if os.path.exists(image_path):
+    print("Image file exists!")
+else:
+    print("Image file does not exist!")
+
 # Banner image
-st.image(image_path, width=1000)
+# st.image(image_path, width=1000)
 
 # Header
 st.header("Welcome to Northumbria University :clap:") 
