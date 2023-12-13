@@ -30,12 +30,12 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.sidebar.markdown("<p style='font-size: 35px; font-weight: bold; color: #1e90ff;text-align: center;'>DIALECT UNDERSTANDING SENTIMENT #2</p>", unsafe_allow_html=True)
+st.sidebar.markdown("<p style='font-size: 35px; font-weight: bold; color: #1e90ff;text-align: center;'>Northumbria University</p>", unsafe_allow_html=True)
+st.sidebar.markdown("<p style='font-size: 14px; font-weight: bold; color: #1e90ff;text-align: center;'>Advanced Practice 2023</p>", unsafe_allow_html=True)
 st.sidebar.markdown("<p style='font-size: 35px; font-weight: bold; color: #fcc305; text-align: center;'>Say Hello!</p>", unsafe_allow_html=True)
-st.sidebar.markdown("<p style='font-size: 12px; color: white;text-align: center;'>DIALECT Understanding sentiment #2.</p>", unsafe_allow_html=True)
-st.sidebar.markdown("<p style='font-size: 12px; color: white;text-align: center;'>Northumbria University AP 2023</p>", unsafe_allow_html=True)
-st.sidebar.markdown("<p style='font-size: 11px; color: white;text-align: center;'>Proof-of-concept</p>", unsafe_allow_html=True)
 st.sidebar.markdown("<p style='font-size: 35px; font-weight: bold; color: #1e90ff;text-align: center;'>CONTACT CENTER</p>", unsafe_allow_html=True)
+st.sidebar.markdown("<p style='font-size: 14px; color: white;text-align: center;'>DIALECT Understanding sentiment #2.</p>", unsafe_allow_html=True)
+st.sidebar.markdown("<p style='font-size: 12px; color: white;text-align: center;'>Proof-of-concept</p>", unsafe_allow_html=True)
 
 # Set up logging
 logging.basicConfig(level=logging.ERROR)
