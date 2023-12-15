@@ -40,9 +40,17 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.title("Summary")
-    st.write("""Unlock the Power of Sentiment Analysis: 
-             Transform your business with our cutting-edge Sentiment Analysis solution. 
-             Gain valuable insights from customer sentiments, enhance decision-making, and elevate your brand's success.
+    st.write("""The application is designed to predict and display 
+             the sentiment of messages entered by a customer in real-time. 
+             Key functionalities include preprocessing of input text, 
+             sentiment prediction using the pre-trained Extra Trees classifier, 
+             and dynamic visualization of sentiment trends through charts. 
+             Additionally, the script incorporated features such as email 
+             notifications for specific sentiment scenarios, 
+             a sidebar for real-time sentiment tracking, 
+             and a graphical user interface for customer interactions. 
+             The application is structured to facilitate an intuitive 
+             and user-friendly experience for both customers and agents in a conversation setting.
              """)
     st.write(" ✔️ Machine learning based sentiment scoring")
     st.write(" ✔️ Real-time notifications")
